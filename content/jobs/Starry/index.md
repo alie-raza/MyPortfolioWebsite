@@ -1,12 +1,14 @@
 ---
-date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
-location: 'Boston, MA'
-range: 'July - December 2016'
-url: 'https://starry.com/'
+date: '2020-08-01'
+title: 'Android Developer'
+company: 'Uptech Sol (SMC-PVT) LTD'
+location: 'Islamabad, Pakistan'
+range: 'August 2020 - June 2021'
+url: 'https://uptechsol.com/'
 ---
 
-- Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS
-- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router
-- Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps
+- Contributed to the development and enhancement of Android applications, implementing new features and UI improvements to deliver better user experiences.
+- Assisted senior developers in building and refining app modules, ensuring smooth functionality and compatibility across Android devices.
+- Participated in **code reviews, debugging, and quality assurance**, maintaining clean, reliable, and efficient production code.
+- Collaborated with cross-functional teams to align technical development with business and design requirements.
+- Gained hands-on experience in **modern Android development practices**, including **Kotlin, Retrofit, and Material Design**, forming a strong foundation for advanced projects ahead.

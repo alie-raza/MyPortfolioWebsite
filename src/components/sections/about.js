@@ -125,7 +125,23 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Java',
+    'Kotlin',
+    'JetPack Compose',
+    'Hilt / Dagger',
+    'Retrofit',
+    'Room',
+    'MVVM',
+    'Clean Architecture',
+    'LiveData/Flow',
+    'Firebase',
+    'Google Fit',
+    'Huawei Health Kit',
+    'REST APIs',
+    'Material Design 3',
+    'UI/UX Collaboration',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +151,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              👋 Hello! My name is Ali, and I enjoy building digital products that live in people’s
+              hands — literally. My interest in mobile development began in 2020 when I built my
+              first Android app just out of curiosity. What started as small UI tweaks and
+              experimenting with layouts quickly turned into a passion for creating seamless,
+              high-performing mobile experiences that make everyday life easier. Fast-forward to
+              today, I’ve had the opportunity to work with startups and product teams across
+              healthcare, IoT, and e-commerce, contributing to applications that impact thousands of
+              users daily. My main focus these days is crafting accessible, secure, and user-centric
+              Android applications at Veroke, where I’m helping build a medical app that integrates
+              loyalty programs, Qitaf rewards, and personalized treatment offers. Previously, I
+              worked at HyperNym, leading the architecture revamp of a large-scale IoT tracking app,
+              and at Infini8AI, where I integrated health SDKs like Google Fit and Huawei Health Kit
+              to power wellness solutions. I’m driven by clean architecture, meaningful design, and
+              code that scales — and I love learning new ways to make Android apps faster, smarter,
+              and more enjoyable to use.
             </p>
 
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>🛠️ Here are a few technologies I’ve been working with recently::</p>
           </div>
 
           <ul className="skills-list">
