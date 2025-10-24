@@ -7,8 +7,9 @@ range: 'May 2024 - Present'
 url: 'https://www.veroke.com'
 ---
 
-- Deliver high-quality, scalable Android applications for diverse industries including healthcare, IoT, and e-commerce, ensuring exceptional performance and user experience.
-- Collaborate with product managers, designers, and backend teams to translate business goals into seamless, intuitive mobile experiences.
-- Lead the architecture, development, and optimization of Android apps and implemented clean code practices, modular design, and performance improvements for long-term maintainability.
-- Drive innovation through mentorship and collaboration, sharing best practices in modern Android development, dependency injection, and app security.
-- Continuously enhance app accessibility, reliability, and user engagement, ensuring every project meets the highest standards of design and functionality.
+- Develop and enhance **healthcare and wellness applications** focused on delivering seamless, high-performance mobile experiences.  
+- Collaborate with **product, design, and backend teams** to translate business goals into intuitive and accessible Android solutions.  
+- Architect and implement **clean, modular codebases** following **MVVM** and **Clean Architecture** principles to ensure scalability and maintainability.  
+- Optimize application **performance, reliability, and security**, reducing load times and improving stability across Android devices.  
+- Integrate **loyalty, wallet, and Qitaf rewards systems**, providing secure and user-friendly financial transactions within the healthcare app.  
+- Mentor junior developers and promote best practices in **modern Android development**, including **dependency injection (Hilt/Dagger)** and **Jetpack libraries**.

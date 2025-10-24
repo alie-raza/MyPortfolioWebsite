@@ -38,6 +38,8 @@ const StyledHeroSection = styled.section`
   p {
     margin: 20px 0 0;
     max-width: 540px;
+    text-align: justify; /* ✅ Justified paragraph text */
+    text-justify: inter-word;
   }
 
   .email-link {
@@ -59,10 +61,10 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>👋 Hi, my name is</h1>;
+  const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Ali Raza</h2>;
   const three = (
-    <h3 className="big-heading">I build intuitive and impactful Android applications.</h3>
+    <h3 className="big-heading">Software Engineer focused on Android development.</h3>
   );
   const four = (
     <>
@@ -72,22 +74,18 @@ const Hero = () => {
         scalable, secure, and user-centric apps — from healthcare and IoT to loyalty and e-commerce
         solutions. Currently, I’m part of the team at Veroke, where I focus on developing
         accessible, human-centered healthcare applications integrating loyalty systems, Qitaf
-        rewards, and secure in-app purchases.{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        rewards, and secure in-app purchases.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="mailto:alie.raza44@gmail.com"
       target="_blank"
       rel="noreferrer"
     >
-      Check out my course!
+      Get in touch
     </a>
   );
 

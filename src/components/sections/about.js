@@ -18,7 +18,13 @@ const StyledAboutSection = styled.section`
     }
   }
 `;
+
 const StyledText = styled.div`
+  p {
+    text-align: justify; /* ✅ Justify text for professional alignment */
+    text-justify: inter-word;
+  }
+
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -46,6 +52,7 @@ const StyledText = styled.div`
     }
   }
 `;
+
 const StyledPic = styled.div`
   position: relative;
   max-width: 300px;
@@ -151,24 +158,30 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              👋 Hello! My name is Ali, and I enjoy building digital products that live in people’s
+              Hello! My name is Ali, and I enjoy building digital products that live in people’s
               hands — literally. My interest in mobile development began in 2020 when I built my
               first Android app just out of curiosity. What started as small UI tweaks and
               experimenting with layouts quickly turned into a passion for creating seamless,
-              high-performing mobile experiences that make everyday life easier. Fast-forward to
-              today, I’ve had the opportunity to work with startups and product teams across
-              healthcare, IoT, and e-commerce, contributing to applications that impact thousands of
-              users daily. My main focus these days is crafting accessible, secure, and user-centric
-              Android applications at Veroke, where I’m helping build a medical app that integrates
-              loyalty programs, Qitaf rewards, and personalized treatment offers. Previously, I
-              worked at HyperNym, leading the architecture revamp of a large-scale IoT tracking app,
-              and at Infini8AI, where I integrated health SDKs like Google Fit and Huawei Health Kit
-              to power wellness solutions. I’m driven by clean architecture, meaningful design, and
-              code that scales — and I love learning new ways to make Android apps faster, smarter,
-              and more enjoyable to use.
+              high-performing mobile experiences that make everyday life easier.
             </p>
 
-            <p>🛠️ Here are a few technologies I’ve been working with recently::</p>
+            <p>
+              Fast-forward to today, I’ve had the opportunity to work with startups and product
+              teams across healthcare, IoT, and e-commerce, contributing to applications that impact
+              thousands of users daily. My main focus these days is crafting accessible, secure, and
+              user-centric Android applications at Veroke, where I’m helping build a medical app that
+              integrates loyalty programs, Qitaf rewards, and personalized treatment offers.
+            </p>
+
+            <p>
+              Previously, I worked at HyperNym, leading the architecture revamp of a large-scale IoT
+              tracking app, and at Infini8AI, where I integrated health SDKs like Google Fit and
+              Huawei Health Kit to power wellness solutions. I’m driven by clean architecture,
+              meaningful design, and code that scales — and I love learning new ways to make Android
+              apps faster, smarter, and more enjoyable to use.
+            </p>
+
+            <p>🛠️ Here are a few technologies I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

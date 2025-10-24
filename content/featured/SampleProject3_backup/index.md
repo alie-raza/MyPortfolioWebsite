@@ -1,22 +1,26 @@
 ---
-title: Weather Dashboard
-date: 2024-03-10
+title: Vodafone IoT – Asset Tracker
+date: 2024-02-25
 cover: ./cover.png
 tech:
-  - React
-  - TypeScript
-  - Chart.js
-  - OpenWeather API
-github: https://github.com/yourusername/weather-dashboard
-external: https://your-weather-app.com
+  - Kotlin
+  - MVVM
+  - Retrofit
+  - Firebase
+  - Jetpack
+github: https://play.google.com/store/apps/details?id=qa.vodafone.asset_tracker
+external: https://play.google.com/store/apps/details?id=qa.vodafone.asset_tracker
 ---
 
-An interactive weather dashboard that provides detailed weather information with beautiful data visualizations. Built with React and TypeScript for type safety and maintainability.
+A robust **IoT-driven tracking application** developed for **Vodafone Qatar**, designed to help drivers and field operators manage and monitor assets efficiently.  
+The app provides **real-time asset visibility**, **navigation assistance**, and **automated reporting** to ensure smooth logistics and operational transparency.
 
 **Key Features:**
 
-- Current weather and 7-day forecast
-- Interactive charts and graphs
-- Location-based weather data
-- Weather alerts and notifications
-- Responsive design for all devices
+- Real-time asset and vehicle tracking  
+- Route history and playback functionality  
+- Driver task and job management  
+- Instant alerts and notifications for asset movement  
+- Reliable synchronization with Vodafone’s IoT network  
+
+Available on [Google Play](https://play.google.com/store/apps/details?id=qa.vodafone.asset_tracker).
