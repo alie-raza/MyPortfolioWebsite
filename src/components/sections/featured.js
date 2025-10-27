@@ -387,11 +387,11 @@ const Featured = () => {
                           Learn More
                         </a>
                       )}
-                      {github && (
+                      {/* {github && (
                         <a href={github} aria-label="GitHub Link">
                           <Icon name="GitHub" />
                         </a>
-                      )}
+                      )} */}
                       {external && !cta && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
@@ -402,7 +402,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a href={external ? external : '#'}>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>

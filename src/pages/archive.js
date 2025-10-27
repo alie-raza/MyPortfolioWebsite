@@ -208,11 +208,11 @@ const ArchivePage = ({ location, data }) => {
                               <Icon name="External" />
                             </a>
                           )}
-                          {github && (
+                          {/* {github && (
                             <a href={github} aria-label="GitHub Link">
                               <Icon name="GitHub" />
                             </a>
-                          )}
+                          )} */}
                           {ios && (
                             <a href={ios} aria-label="Apple App Store Link">
                               <Icon name="AppStore" />
